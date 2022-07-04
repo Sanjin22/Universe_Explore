@@ -1,0 +1,434 @@
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#poz1 {
+    background: url(glavna2.jpg);
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#poz2 {
+    background: url(merkur.jpg);
+    min-height: 150%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#slikicaDiv {
+    width: 150px;
+    height: 50%;
+    border: 3px solid black;
+    background-image: url(merkur1zan.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+hr {
+    height: 5px;
+    width: 100%;
+    background-color: rgb(115, 83, 211);
+    border: none;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 25;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+
+p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.608);
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#txt2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.185);
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#poz3 {
+    background: url(venera.jpg);
+    min-height: 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 150%;
+}
+
+#slikicaDiv2 {
+    height: 200px;
+    width: 150px;
+    background: url(/main/paralaksa/Venera-model.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slikicaDiv3 {
+    height: 250px;
+    width: 50%;
+    background: url(/main/paralaksa/zemlja-venera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#poz4 {
+    background: url(zemlja2.jpg);
+    min-height: 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#zaZemlju {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#slikicaDiv4 {
+    height: 200px;
+}
+
+#zemlja1 {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+
+#zemlja2 {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#slikicaDiv4 {
+    width: 250px;
+    background: url(/main/paralaksa/zemljica.gif);
+    background-size: cover;
+    margin: auto;
+    background-position: center;
+}
+
+#poz5 {
+    background: url(mars.jpg);
+    min-height: 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 150%;
+}
+
+#slikicaDiv5 {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    background: url(/main/paralaksa/marsMeteor.gif);
+    background-position: center;
+}
+
+#poz6 {
+    background: url(jupiter.jpg);
+    min-height: 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 150%;
+}
+
+#slikicaDiv6 {
+    width: 400px;
+    height: 200px;
+    background: url(/main/paralaksa/jupiterGif.gif);
+    background-position: center;
+}
+
+#slikicaDiv61 {
+    width: 400px;
+    height: 200px;
+    background: url(/main/paralaksa/jupiterGif2.jpg);
+    background-position: center;
+}
+
+#poz7 {
+    background: url(uran.jpg);
+    min-height: 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#slikicaDiv7 {
+    height: 200px;
+    width: 200px;
+    background: url(/main/paralaksa/uranGif.gif);
+    background-size: cover;
+}
+
+#poz8 {
+    background: url(neptune.jpg);
+    min-height: 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#slikicaDiv8 {
+    width: 150px;
+    height: 150px;
+    background: url(/main/paralaksa/neptuneGif.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+#slikicaDiv81 {
+    width: 250px;
+    height: 150px;
+    background: url(/main/paralaksa/neptunSlika.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#zaNeptun {
+    width: 300px;
+}
+
+#poz9 {
+    background: url(plutp.jpg);
+    min-height: 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#slikicaDiv9 {
+    width: 200px;
+    height: 200px;
+    background: url(/main/paralaksa/plutoGif.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.reveal {
+    transform: translateY(200px);
+    opacity: 0;
+    transition: 1.25s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.prvaPozicija {
+    height: 250px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.327);
+}
+
+.box {
+    height: 500px;
+    min-width: 500px;
+    width: 600px;
+    background: linear-gradient(to right, #390ca380, #d0000076, #f7ba0181);
+    background-size: 400% 400%;
+    animation: animirajPozadinu 10s infinite ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+#naslovniTekst {
+    background: linear-gradient(to right, #390ca380, #d0000076, #f7ba0181);
+    background-size: 400% 400%;
+    animation: animirajPozadinu 10s infinite ease-in-out;
+    font-family: 'Chakra Petch', sans-serif;
+    border: 3px solid white;
+}
+
+.naslovna {
+    height: 500px;
+    width: 1000px;
+    animation: 1.5s ease-out 0s 1 ucitaj;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-align: center;
+}
+
+@keyframes ucitaj {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes animirajPozadinu {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #zaZemlju {
+        width: 60%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #slikicaDiv4 {
+        height: 150px;
+        width: 200px;
+    }
+
+    #slikicaDiv4 {
+        height: 100px;
+    }
+
+    #zemlja1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #zemlja2 {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .box {
+        height: 500px;
+        min-width: 300px;
+        width: 400px;
+    }
+
+    #slikicaDiv6 {
+        width: 200px;
+        height: 200px;
+    }
+
+    #slikicaDiv61 {
+        width: 200px;
+        height: 200px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #zaZemlju {
+        width: 60%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #zaZemlju {
+        width: 60%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
