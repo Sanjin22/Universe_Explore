@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(universe.jpg);
+}
+
+#brojac {
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    font-family: 'Chakra Petch', sans-serif;
+    background: linear-gradient(to right, #390ca3b4, #d00000ae, #f7ba01b1);
+    background-size: 400% 400%;
+    animation: animirajPozadinu 10s infinite ease-in-out;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#svemir {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#galaksija {
+    height: 700px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divZemlja {
+    height: 480px;
+    width: 480px;
+    animation: animate 10s linear infinite;
+}
+
+#zaMj {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    animation: animate 850ms linear infinite;
+}
+
+#mjesec {
+    height: 15px;
+    width: 15px;
+}
+
+#divSunce {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sunce {
+    height: 150px;
+    width: 150px;
+    animation: animate 30s linear infinite;
+}
+
+#zemlja {
+    height: 30px;
+    width: 30px;
+    animation: animate 6s linear infinite;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+}
+
+@keyframes animate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animirajPozadinu {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
